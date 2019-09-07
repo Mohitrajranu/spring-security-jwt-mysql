@@ -36,16 +36,18 @@ public class Role {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public Role withId(Long id) {
 		this.id = id;
+		return this;
 	}
 
-	public RoleName getName() {
+	public RoleName withName() {
 		return name;
 	}
 
-	public void setName(RoleName name) {
+	public Role withName(RoleName name) {
 		this.name = name;
+		return this;
 	}
 
 }
